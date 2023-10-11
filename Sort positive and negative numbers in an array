@@ -1,0 +1,11 @@
+def sort_array(nums):
+    aux_arr=[]
+    pos_arr=[]
+    for i in range(len(nums)):
+        if nums[i]<0:
+            aux_arr.append(nums[i])
+        else:
+            nums[i]>=0
+            pos_arr.append(nums[i])
+     
+    print(aux_arr,pos_arr)
